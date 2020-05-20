@@ -404,7 +404,7 @@ _ = pd.plotting.scatter_matrix(df, c = y, s = 150, marker = 'D', figsize = [8,8]
 ```
 
 
-![png](output_20_0.png)
+![output_20_0](https://user-images.githubusercontent.com/49030506/82402280-04ea7680-9a2a-11ea-886b-93ad1a80ec5a.png)
 
 
 The result is a matrix of figures which containts very useful information. On the diagonal are the histograms of the features corresponding to the row and column. 
@@ -649,7 +649,7 @@ plt.show()
 ```
 
 
-![png](output_29_0.png)
+![output_29_0](https://user-images.githubusercontent.com/49030506/82402282-05830d00-9a2a-11ea-8ba5-5ecc8ad64e44.png)
 
 
 It seems like republicans voted resoundingly against this bill, compared to Democrats. This is the kind of information that our machine learning model will seek to learn when we try to predict party affiliation solely based on voting behavior. An expert in U.S politics may be able to predict this without machine learning, but probably not instantaneously - and certainly not if we are dealing with hundreds of samples!
@@ -666,7 +666,7 @@ plt.show()
 ```
 
 
-![png](output_32_0.png)
+![output_32_0](https://user-images.githubusercontent.com/49030506/82402283-05830d00-9a2a-11ea-8713-903ffe78e607.png)
 
 
 
@@ -678,7 +678,7 @@ plt.show()
 ```
 
 
-![png](output_33_0.png)
+![output_33_0](https://user-images.githubusercontent.com/49030506/82402284-05830d00-9a2a-11ea-8ec9-4f53a1b0c2a0.png)
 
 
 Democrats vote in favor of both 'satellite' and 'missile'.
@@ -1182,7 +1182,7 @@ plt.show()
 ```
 
 
-![png](output_61_0.png)
+![output_61_0](https://user-images.githubusercontent.com/49030506/82402285-05830d00-9a2a-11ea-8d43-e021f674bce6.png)
 
 
 It looks like the test accuracy is highest when using 3 and 6 neighbors. Using 8 neighbors or more seems to result in a simple model that underfits the data.
@@ -1272,7 +1272,7 @@ plt.show()
 
 
 
-![png](output_64_1.png)
+![output_64_1](https://user-images.githubusercontent.com/49030506/82402286-061ba380-9a2a-11ea-97cd-9666096e5586.png)
 
 
 ###### Train/Test Split + Fit/Predict/Accuracy
@@ -1344,7 +1344,7 @@ plt.show()
 ```
 
 
-![png](output_68_0.png)
+![output_68_0](https://user-images.githubusercontent.com/49030506/82402287-061ba380-9a2a-11ea-99d1-6ef4937aa992.png)
 
 
 It looks like the test accuracy is highest when using 3 and 5 neighbors. Using 8 neighbors or more seems to result in a simple model that underfits the data.
@@ -1586,7 +1586,7 @@ sns.heatmap(df.corr(), square=True, cmap='RdYlGn')
 
 
 
-![png](output_78_1.png)
+![output_78_1](https://user-images.githubusercontent.com/49030506/82402288-061ba380-9a2a-11ea-88be-af40d6a5318d.png)
 
 
 ###### Exploring the Gapminder data
@@ -1908,7 +1908,7 @@ plt.ylabel('Life')
 
 
 
-![png](output_86_1.png)
+![output_86_1](https://user-images.githubusercontent.com/49030506/82402289-061ba380-9a2a-11ea-9cda-27e0f4b3a0eb.png)
 
 
 As you can see, there is a strongly negative correlation, so a linear regression should be able to capture this trend. The job is to fit a linear regression and then predict the life expectancy, overlaying these predicted values on the plot to generate a regression line. I will also compute and print the R2 score using sckit-learn's .score() method.
@@ -1945,7 +1945,7 @@ plt.show()
 
 
 
-![png](output_88_1.png)
+![output_88_1](https://user-images.githubusercontent.com/49030506/82402290-061ba380-9a2a-11ea-9d10-29b09cf0acfa.png)
 
 
 ###### Train/test split for regression
@@ -2118,7 +2118,7 @@ plt.show()
 
 
 
-![png](output_101_1.png)
+![output_101_1](https://user-images.githubusercontent.com/49030506/82402291-06b43a00-9a2a-11ea-8fc7-6ba87ebb26d2.png)
 
 
 According to the lasso algorithm, it seems like 'child_mortality' is the most important feature when predicting life expectancy.
@@ -2187,7 +2187,7 @@ display_plot(ridge_scores, ridge_scores_std)
 ```
 
 
-![png](output_105_0.png)
+![output_105_0](https://user-images.githubusercontent.com/49030506/82402292-06b43a00-9a2a-11ea-9240-8eada20f0c53.png)
 
 
 Notice how the cross-validation scores change with different alphas. Which alpha should we pick will come later. 
@@ -2532,7 +2532,7 @@ plt.show()
 ```
 
 
-![png](output_125_0.png)
+![output_125_0](https://user-images.githubusercontent.com/49030506/82402293-06b43a00-9a2a-11ea-957e-e78d57c06638.png)
 
 
 ###### Area under the ROC Curve
@@ -3293,7 +3293,8 @@ plt.show()
 ```
 
 
-![png](output_144_0.png)
+![output_144_0](https://user-images.githubusercontent.com/49030506/82402294-06b43a00-9a2a-11ea-8186-ba1054851d66.png)
+
 
 
 Sub-Saharan Africa has a lower life expectancy compared to Europe and Central Asia. 
